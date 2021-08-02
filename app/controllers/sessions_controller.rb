@@ -17,3 +17,14 @@ class SessionsController < ApplicationController
       request.env['omniauth.auth']
     end
   end 
+
+
+#  NOTE issue below that halted this assignment for me:
+
+#  thin start --ssl with https:// (secure) does not escape the Privacy Error block.
+
+#  Only rails s and http:// (nonsecure) is proceeding to Facebook log in page with the message: 
+#  "Insecure Login Blocked.  You can't get an access token or log in to this app from an insecure page. 
+#  Try re-loading the page as https://"
+
+#  This process was viewed on AAQ with the TC.

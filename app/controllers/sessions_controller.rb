@@ -27,4 +27,8 @@ class SessionsController < ApplicationController
 #  "Insecure Login Blocked.  You can't get an access token or log in to this app from an insecure page. 
 #  Try re-loading the page as https://"
 
-#  This process was viewed on AAQ with the TC.
+#  This process was resolved on AAQ with the TC:
+#  Here was the fix: I had an extra step to bypass, 
+#  in addition to clicking Advanced > Proceed to localhost.
+
+
